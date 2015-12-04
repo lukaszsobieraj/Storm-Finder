@@ -17,7 +17,7 @@ $distanceCheck = $_POST['distance'];
 require 'vendor\autoload.php';
 $burzeDzisNet = new \KrzysiekPiasecki\BurzeDzisNet\BurzeDzisNet(
         new \KrzysiekPiasecki\BurzeDzisNet\Endpoint(
-        '4d36bcb5c4f892dbc042f3e1b0972d4ce686b479'
+        'API Key'
         )
 );
 $point = $burzeDzisNet->locate($place);
