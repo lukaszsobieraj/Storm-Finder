@@ -4,6 +4,7 @@
     "type": "app",
     "description": "Little tool warning of storm",
     "keywords": ["storm", "weather", "burze"],
+    "minimum-stability": "stable",
     "homepage": "https://github.com/lukaszsobieraj/Burze",
     "license": "MIT",
     "authors": [
