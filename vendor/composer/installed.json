@@ -1,0 +1,106 @@
+[
+    {
+        "name": "krzysiekpiasecki/burzedzisnet",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/krzysiekpiasecki/BurzeDzisNet.git",
+            "reference": "e657d585ba9958db9a52eb4c4335d11fad3d9af6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/krzysiekpiasecki/BurzeDzisNet/zipball/e657d585ba9958db9a52eb4c4335d11fad3d9af6",
+            "reference": "e657d585ba9958db9a52eb4c4335d11fad3d9af6",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7"
+        },
+        "require-dev": {
+            "fabpot/php-cs-fixer": "*",
+            "krzysiekpiasecki/diagnostics": "*",
+            "phploc/phploc": "*",
+            "phpunit/phpunit": "5.*",
+            "phpunit/phpunit-story": "*"
+        },
+        "time": "2015-10-21 18:18:31",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "KrzysiekPiasecki\\": "src/KrzysiekPiasecki"
+            }
+        },
+        "notification-url": "http://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Krzysztof Piasecki",
+                "email": "krzysiekpiasecki@gmail.com"
+            }
+        ],
+        "description": "burze.dzis.net client",
+        "keywords": [
+            "alert",
+            "storm",
+            "weather"
+        ]
+    },
+    {
+        "name": "symfony/http-foundation",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/http-foundation.git",
+            "reference": "3d84011760854ae1eda01212a6d1e82574bbe7c3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3d84011760854ae1eda01212a6d1e82574bbe7c3",
+            "reference": "3d84011760854ae1eda01212a6d1e82574bbe7c3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "require-dev": {
+            "symfony/expression-language": "~2.8|~3.0"
+        },
+        "time": "2015-11-20 17:45:52",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\HttpFoundation\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "http://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony HttpFoundation Component",
+        "homepage": "https://symfony.com"
+    }
+]

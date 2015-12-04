@@ -1,0 +1,121 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c2f236b6284596d13e5cb0b60aaea70e",
+    "content-hash": "f39abaa2f247500c4ca056fb03c2ad0a",
+    "packages": [
+        {
+            "name": "krzysiekpiasecki/burzedzisnet",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/krzysiekpiasecki/BurzeDzisNet.git",
+                "reference": "e657d585ba9958db9a52eb4c4335d11fad3d9af6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/krzysiekpiasecki/BurzeDzisNet/zipball/e657d585ba9958db9a52eb4c4335d11fad3d9af6",
+                "reference": "e657d585ba9958db9a52eb4c4335d11fad3d9af6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "*",
+                "krzysiekpiasecki/diagnostics": "*",
+                "phploc/phploc": "*",
+                "phpunit/phpunit": "5.*",
+                "phpunit/phpunit-story": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KrzysiekPiasecki\\": "src/KrzysiekPiasecki"
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Krzysztof Piasecki",
+                    "email": "krzysiekpiasecki@gmail.com"
+                }
+            ],
+            "description": "burze.dzis.net client",
+            "keywords": [
+                "alert",
+                "storm",
+                "weather"
+            ],
+            "time": "2015-10-21 18:18:31"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "3d84011760854ae1eda01212a6d1e82574bbe7c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3d84011760854ae1eda01212a6d1e82574bbe7c3",
+                "reference": "3d84011760854ae1eda01212a6d1e82574bbe7c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-11-20 17:45:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "symfony/http-foundation": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

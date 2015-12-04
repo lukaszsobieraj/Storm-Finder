@@ -1,0 +1,25 @@
+
+{
+    "name": "storm-finder/lukaszsobieraj",
+    "type": "app",
+    "description": "Little tool warning of storm",
+    "keywords": ["storm", "weather", "burze"],
+    "homepage": "https://github.com/lukaszsobieraj/Burze",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Łukasz Sobieraj",
+            "email": "soberaj.lukasz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "symfony/framework-bundle": "2.*"
+
+    },
+    "require-dev": {
+        "krzysiekpiasecki/burzedzisnet": "^1.0",
+        "symfony/http-foundation": "dev-master"
+
+    }
+}
