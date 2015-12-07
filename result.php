@@ -14,7 +14,7 @@ $radiusCheck = $_POST['radius'];
 $periodCheck = $_POST['period'];
 $distanceCheck = $_POST['distance'];
 
-require 'vendor\autoload.php';
+
 $burzeDzisNet = new \KrzysiekPiasecki\BurzeDzisNet\BurzeDzisNet(
         new \KrzysiekPiasecki\BurzeDzisNet\Endpoint(
         'API KEY'
