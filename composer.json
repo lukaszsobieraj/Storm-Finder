@@ -19,8 +19,7 @@
 
     },
     "require-dev": {
-        "krzysiekpiasecki/burzedzisnet": "^1.0",
-        "symfony/http-foundation": "dev-master"
+        "krzysiekpiasecki/burzedzisnet": "^1.0"
 
     }
 }
