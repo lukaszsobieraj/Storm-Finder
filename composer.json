@@ -14,8 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=7",
-        "symfony/framework-bundle": "2.*"
+        "php": ">=7"
 
     },
     "require-dev": {
