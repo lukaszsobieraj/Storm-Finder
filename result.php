@@ -17,7 +17,7 @@ $distanceCheck = $_POST['distance'];
 
 $burzeDzisNet = new \KrzysiekPiasecki\BurzeDzisNet\BurzeDzisNet(
         new \KrzysiekPiasecki\BurzeDzisNet\Endpoint(
-        'API KEY'
+        '4d36bcb5c4f892dbc042f3e1b0972d4ce686b479'
         )
 );
 $point = $burzeDzisNet->locate($place);
@@ -41,13 +41,13 @@ $radiusInput = null;
 $invisibleInput = "style='display:none'";
 
 if($direction == null){
-    $direction = 'not data ';
+    $direction = 'no data ';
 }
 if($lightnings == null){
-    $lightnings = 'not occured ';
+    $lightnings = 'no occured ';
 }
 if($distance == null){
-    $distance = 'not data ';
+    $distance = 'no data ';
 }
 
 if ($directionCheck != 'on') {
